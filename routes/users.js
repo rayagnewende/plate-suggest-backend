@@ -32,7 +32,7 @@ router.post('/signup', (req, res) => {
                   token:token
               }); 
 
-              newUser.save(); 
+              newUser.save() 
               res.json({ result:true, token:token}); 
           }
      
