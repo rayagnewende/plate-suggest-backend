@@ -10,6 +10,11 @@ router.get('/', function(req, res ) {
               })
 });
 
+router.get('/:test', function(req, res ) {
+  res.json({result:req.params.test})
+});
+
+
 router.get('/:name', function(req, res ) {
     
     Ingredients.find({name:{$regex:req.params.name, $options:'i'}}) 
