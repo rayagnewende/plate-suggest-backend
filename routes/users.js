@@ -12,17 +12,22 @@ router.post('/signup', (req, res) => {
   const { username, email, password} = req.body ; 
   const hash = bcrypt.hashSync(password, 10);
   const token = uid2(32); 
+  const EMAIL_REGEX = /^(([^<>()[]\.,;:\s@"]+(.[^<>()[]\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/;
 
   User.find()
       .then( users => {
 
           if( !email || !password || email==='' || password==='')
           {
-              res.json({ result:false, error:'Missing or empty fields' }); 
+              res.json({ result:false, error:'Il existe des champs vide' }); 
           }
           else if( checkIfEmailExist(email, users))
           {
-              res.json({ result: false, error: 'User already exists' })
+              res.json({ result: false, error: 'Email existe déjà' })
+          }
+          else if(!EMAIL_REGEX.test(email))
+          {
+            res.json({ result: false, error: "L'email n'est pas valide" })
           }
           else {
               const newUser = new User({
