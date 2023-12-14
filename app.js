@@ -10,6 +10,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const ingredientsRouter = require('./routes/ingredients')
 const preferencesRouter = require('./routes/preferences'); 
+const placesRouter = require("./routes/places")
 
 var app = express();
 app.use(cors()); 
@@ -23,5 +24,5 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use("/ingredients",ingredientsRouter)
 app.use("/preferences", preferencesRouter)
-
+app.use("/places", placesRouter)
 module.exports = app;

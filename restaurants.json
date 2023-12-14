@@ -1,0 +1,276 @@
+[
+    {
+        "place_name":"Carrefour City", 
+        "adresse":"10 Bd des Batignolles, 75017 Paris", 
+        "place_image":"https://vire.boutic-app.fr/photos/carrefou-541-crwZWsi9MnCL.jpeg", 
+        "place_type": "Magasin", 
+        "latitude":48.8888175239241, 
+        "longitude":2.3030700683295118, 
+        "distance":"97", 
+        "menus": [
+            {
+                "dish_name":"Falafels pois chiche fève coriandre CARREFOUR VEGGIE",
+                "dish_type":"Végétarien", 
+                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
+                "dish_category":"", 
+                "price":"2.79", 
+                "ingredients":[
+                    {
+                        "name":"semoule de ble"
+                    }, 
+                    {
+                        "name":"huile de colza"
+                    }, 
+                    {
+                        "name":"sel"
+                    }, 
+                    {
+                        "name":"huile de tournesol"
+                    }
+                ]
+
+            }, 
+            {
+                "dish_name":"Plat cuisiné boulettes au soja CARREFOUR VEGGIE",
+                "dish_type":"Végétarien", 
+                "dish_description":"",
+                "dish_category":"", 
+                "price":2.45, 
+                "ingredients":[
+                    {
+                        "name":"pois chiches"
+                    }, 
+                    {
+                        "name":"fèves"
+                    }, 
+                    {
+                        "name":"coriandre et menthe"
+                    }
+                ]
+            }, 
+            {
+
+                "dish_name":"Steaks de soja tomate basilic",
+                "dish_type":"Végétarien", 
+                "dish_description":"couvrez les délicieux steaks au soja, agrémentés de tomates et de basilic, pour une touche gourmande et ensoleillée dans votre assiette. Une préparation préfrite et précuite riche en protéines de soja, tomate et basili",
+                "dish_category":"", 
+                "price":3.15, 
+                "ingredients":[
+                    {
+                        "name":"protéines de SOJA"
+                    }, 
+                    {
+                        "name":"tomate de basilic"
+                    }
+                ]
+            }, 
+
+            {
+
+                "dish_name":"Dessert crème brûlée",
+                "dish_type":"Végétarien", 
+                "dish_description":"couvrez les délicieux steaks au soja, agrémentés de tomates et de basilic, pour une touche gourmande et ensoleillée dans votre assiette. Une préparation préfrite et précuite riche en protéines de soja, tomate et basili",
+                "dish_category":"", 
+                "price":7.72, 
+                "ingredients":[                 
+                    {
+                        "name":" LAIT demi-écrémé"
+                    }, 
+                    {
+                        "name":"sucre"
+                        
+                    },
+                    {
+                        "name":"oeufs extra frais"
+                    }
+
+                ]
+            }
+
+        ] 
+    }, 
+
+    {
+
+        "place_name":"Chez Léon", 
+        "adresse":"32 Rue Legendre, 75017 Paris", 
+        "place_image":"https://media-cdn.tripadvisor.com/media/photo-s/10/6f/14/13/burger.jpg", 
+        "place_type": "Restaurant", 
+        "latitude":48.88426145353152,
+        "longitude":2.314446160434627, 
+        "distance":"400", 
+        "menus": [
+            {
+                "dish_name":"Burger de Léon",
+                "dish_type":"Végétarien", 
+                "dish_description":"",
+                "dish_category":"Plat de la maison", 
+                "price":22, 
+                "ingredients":[
+                    {
+                        "name":"Boeuf français"
+                    }, 
+                    {
+                        "name":"Oignons confits"
+                    },
+                    {
+                        "name":"sauce léon"
+                    }, 
+                    {
+                        "name":"Frites maison"
+                    }
+                  
+                ]
+
+            }
+
+        ] 
+    }, 
+    
+    {
+
+        "place_name":"Chez Maxence", 
+        "adresse":"52 Rue Legendre, 75017 Paris", 
+        "place_image":"https://media-cdn.tripadvisor.com/media/photo-s/12/99/48/94/coin-banquette.jpg", 
+        "place_type": "Restaurant", 
+        "latitude":48.88516766443111, 
+        "longitude":2.3159344865063414, 
+        "distance":"400", 
+        "menus": [
+            {
+                "dish_name":"Salade verte",
+                "dish_type":"Végétarien", 
+                "dish_description":"",
+                "dish_category":"Salades", 
+                "dish_image":"https://francais.redpathsugar.com/sites/francais_redpathsugar_com/files/Caramelized%20Vinaigrette%20Main.jpg",
+                "price":5.5, 
+                "ingredients":[
+                    {
+                        "name":"Feuille de chêne"
+                    }, 
+                    {
+                        "name":"batavia"
+                    },
+                    {
+                        "name":"laitue"
+                    }
+                  
+                ]
+            }, 
+            {
+                "dish_name":"Salade de poulet",
+                "dish_type":"Flexitarien", 
+                "dish_description":"",
+                "dish_category":"Salades", 
+                "dish_image":"https://img.cuisineaz.com/660x660/2016/04/28/i97668-salade-de-poulet.jpg",
+                "price":14.5, 
+                "ingredients":[
+                    {
+                        "name":" Salade"
+                    }, 
+                    {
+                        "name":"blanc de poulet"
+                    },
+                    {
+                        "name":"pomme de terre"
+                    },
+                    {
+                        "name":"oeuf mollet"
+                    },
+                    {
+                        "name":"tomates cerises confites"
+                    }, 
+                    {
+                        "name":"copeaux de parmesan"
+                    }, 
+                    {
+                        "name":"herbes fraîches"
+                    }
+                  
+                ]
+
+            }
+        ] 
+
+    }, 
+    
+    
+
+    {
+
+        "place_name":"FrancPrix", 
+        "adresse":"48 Rue Jouffroy d'Abbans, 75017 Paris", 
+        "place_image":"https://www.olivierdauvers.fr/wp-content/uploads/2022/12/IMG_0758-copie-1.jpg", 
+        "place_type": "Magasin", 
+        "latitude":48.88584677867752, 
+        "longitude":2.307669512161688, 
+        "distance":"30", 
+        "menus": [
+            {
+                "dish_name":"Escalope de dinde milanaise spaghettis tomate",
+                "dish_type":"Mange tout", 
+                "dish_description":"Une escalope de poulet panée et bien dorée accompagnée de spaghetti et d'une sauce tomate cuisinée avec des oignons, de l'ail, et du basilic.",
+                "dish_category":"", 
+                "dish_image":"https://franprix.twic.pics/product-images/3302740447020_A1C1_s52?twic=v1/output=jpeg/cover=420x-",
+                "price":3.65, 
+                "ingredients":[
+                    {
+                        "name":"Pâtes spaghetti"
+                    }, 
+                    {
+                        "name":"escalope de poulet"
+                    },
+                    {
+                        "name":"sel"
+                    }, 
+                    {
+                        "name":"farine de blé"
+                    },
+                    {
+                        "name":"levure"
+                    },
+                    {
+                        "name":"tomate"
+                    }, 
+                    {
+                        "name":"oignon"
+                    }, 
+                    {
+                        "name":"huile d'olive"
+                    }
+                  
+                ]
+            }, 
+            {
+                "dish_name":"Pasta box au boeuf sauce poivre",
+                "dish_type":"Mange tout", 
+                "dish_description":"",
+                "dish_category":"Salades", 
+                "dish_image":"https://img.cuisineaz.com/660x660/2016/04/28/i97668-salade-de-poulet.jpg",
+                "price":14.5, 
+                "ingredients":[
+                    {
+                        "name":"semoule de blé"
+                    },
+                    {
+                        "name":"oeuf"
+                    },
+                    {
+                        "name":"sel"
+                    }, 
+                    {
+                        "name":"viande de boeuf"
+                    },
+                    {
+                        "name":"poivre"
+                    }, 
+                    {
+                        "name":"lait écremé"
+                    }
+
+                ]
+
+            }
+        ] 
+    }   
+]
