@@ -7,6 +7,7 @@
         "latitude":48.8888175239241, 
         "longitude":2.3030700683295118, 
         "distance":"97", 
+        "note":3.8, 
         "menus": [
             {
                 "dish_name":"Falafels pois chiche fève coriandre CARREFOUR VEGGIE",
@@ -98,7 +99,8 @@
         "place_type": "Restaurant", 
         "latitude":48.88426145353152,
         "longitude":2.314446160434627, 
-        "distance":"400", 
+        "distance":"400",
+        "note":4.5, 
         "menus": [
             {
                 "dish_name":"Burger de Léon",
@@ -118,6 +120,9 @@
                     }, 
                     {
                         "name":"Frites maison"
+                    }, 
+                    {
+                        "name":"Tomate"
                     }
                   
                 ]
@@ -135,7 +140,8 @@
         "place_type": "Restaurant", 
         "latitude":48.88516766443111, 
         "longitude":2.3159344865063414, 
-        "distance":"400", 
+        "distance":"400",
+        "note":4.8, 
         "menus": [
             {
                 "dish_name":"Salade verte",
@@ -205,6 +211,7 @@
         "latitude":48.88584677867752, 
         "longitude":2.307669512161688, 
         "distance":"30", 
+        "note": 4, 
         "menus": [
             {
                 "dish_name":"Escalope de dinde milanaise spaghettis tomate",

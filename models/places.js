@@ -16,10 +16,11 @@ const PlaceSchema = mongoose.Schema({
     longitude:Number, 
     latitude:Number,
     distance:Number, 
+    note:Number, 
     menus:[menuSchema]
 }); 
 
 const Place = mongoose.model('places',PlaceSchema); 
 
 
-module.exports = { Place }
+module.exports = Place 
