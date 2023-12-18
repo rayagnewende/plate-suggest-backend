@@ -2,19 +2,26 @@ var express = require('express');
 var router = express.Router();
 const Preference = require('../models/preferences'); 
 const Place = require('../models/places'); 
+const User = require('../models/users')
 /*  */
-router.get('/:id', async function(req, res ) {
-    const  id = req.params.id;
+router.get('/:token', async function(req, res ) {
+    const  token = req.params.token;
     let  plats=[]; 
     let platsfiltres=[]; 
     let platsFinal= [];
-   Place.find()
+    
+    User.findOne({token:token})
+        .then( user => {
+
+
+
+         Place.find()
          .then( restaurants => {
             restaurants.map( data => {
                 plats = [...plats, ...data.menus,]
             })
             // selectionner les préferences et faire le fitrage en fonction des préférences de l'utilisateur
-            Preference.findOne({ user:id})
+            Preference.findOne({ user:user._id})
                         .then( data => {
                         // console.log(data);
                            for(const plat of plats )
@@ -56,6 +63,11 @@ router.get('/:id', async function(req, res ) {
             
                         
         })
+
+
+
+        })
+
        
 }); 
 

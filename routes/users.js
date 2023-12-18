@@ -38,8 +38,11 @@ router.post('/signup', (req, res) => {
                   token:token
               }); 
 
-              newUser.save() 
-              res.json({ result:true, token:token}); 
+              newUser.save()
+                     .then( data => {
+                      console.log(data);
+                     })
+             res.json({ result:true, token:token}); 
           }
      
       });
