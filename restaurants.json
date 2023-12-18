@@ -6,7 +6,7 @@
         "place_type": "Magasin", 
         "latitude":48.8888175239241, 
         "longitude":2.3030700683295118, 
-        "distance":"97", 
+        "distance":97, 
         "note":3.8, 
         "menus": [
             {
@@ -14,7 +14,7 @@
                 "dish_type":"Végétarien", 
                 "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"", 
-                "price":"2.79", 
+                "price":2.79, 
                 "ingredients":[
                     {
                         "name":"semoule de ble"
@@ -39,13 +39,16 @@
                 "price":2.45, 
                 "ingredients":[
                     {
-                        "name":"pois chiches"
+                        "name":"pois chiche"
                     }, 
                     {
-                        "name":"fèves"
+                        "name":"fève"
                     }, 
                     {
-                        "name":"coriandre et menthe"
+                        "name":"coriandre"
+                    },
+                    {
+                        "name":"menthe"
                     }
                 ]
             }, 
@@ -58,7 +61,7 @@
                 "price":3.15, 
                 "ingredients":[
                     {
-                        "name":"protéines de SOJA"
+                        "name":"SOJA"
                     }, 
                     {
                         "name":"tomate de basilic"
@@ -75,14 +78,14 @@
                 "price":7.72, 
                 "ingredients":[                 
                     {
-                        "name":" LAIT demi-écrémé"
+                        "name":" LAIT"
                     }, 
                     {
                         "name":"sucre"
                         
                     },
                     {
-                        "name":"oeufs extra frais"
+                        "name":"oeuf"
                     }
 
                 ]
@@ -99,27 +102,27 @@
         "place_type": "Restaurant", 
         "latitude":48.88426145353152,
         "longitude":2.314446160434627, 
-        "distance":"400",
+        "distance":400,
         "note":4.5, 
         "menus": [
             {
                 "dish_name":"Burger de Léon",
-                "dish_type":"Végétarien", 
+                "dish_type":"Mange tout", 
                 "dish_description":"",
                 "dish_category":"Plat de la maison", 
                 "price":22, 
                 "ingredients":[
                     {
-                        "name":"Boeuf français"
+                        "name":"Boeuf"
                     }, 
                     {
-                        "name":"Oignons confits"
+                        "name":"Oignon"
                     },
                     {
                         "name":"sauce léon"
                     }, 
                     {
-                        "name":"Frites maison"
+                        "name":"Frite"
                     }, 
                     {
                         "name":"Tomate"
@@ -140,7 +143,7 @@
         "place_type": "Restaurant", 
         "latitude":48.88516766443111, 
         "longitude":2.3159344865063414, 
-        "distance":"400",
+        "distance":300,
         "note":4.8, 
         "menus": [
             {
@@ -172,10 +175,10 @@
                 "price":14.5, 
                 "ingredients":[
                     {
-                        "name":" Salade"
+                        "name":"Salade"
                     }, 
                     {
-                        "name":"blanc de poulet"
+                        "name":"poulet"
                     },
                     {
                         "name":"pomme de terre"
@@ -184,7 +187,7 @@
                         "name":"oeuf mollet"
                     },
                     {
-                        "name":"tomates cerises confites"
+                        "name":"tomate"
                     }, 
                     {
                         "name":"copeaux de parmesan"
@@ -210,7 +213,7 @@
         "place_type": "Magasin", 
         "latitude":48.88584677867752, 
         "longitude":2.307669512161688, 
-        "distance":"30", 
+        "distance":30, 
         "note": 4, 
         "menus": [
             {

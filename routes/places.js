@@ -4,43 +4,52 @@ const Preference = require('../models/preferences');
 const Place = require('../models/places'); 
 /*  */
 router.get('/:id', async function(req, res ) {
-     const  id = req.params.id;
-//    Preference.findOne({ user:user_id})
-//               .then( data => {
-                
-//                 console.log(data); }); 
-let  plats=[]; 
-let platsfiltres=[]; 
-let platsFinal= [];
+    const  id = req.params.id;
+    let  plats=[]; 
+    let platsfiltres=[]; 
+    let platsFinal= [];
    Place.find()
          .then( restaurants => {
             restaurants.map( data => {
-                plats = [...plats, ...data.menus]
+                plats = [...plats, ...data.menus,]
             })
+            // selectionner les préferences et faire le fitrage en fonction des préférences de l'utilisateur
             Preference.findOne({ user:id})
                         .then( data => {
+                       
                            for(const plat of plats )
                            {
-                               if(plat.dish_type.toLowerCase() === data.regime.toLowerCase())
+                               if(plat.dish_type.toLowerCase() === data.regime.toLowerCase() || 
+                                  (data.regime.toLowerCase() === "Flexitarien" && plat.dish_type.toLowerCase() === "Végétarien") ||
+                                  (data.regime.toLowerCase() === "Mange tout" && 
+                                  (plat.dish_type.toLowerCase() === "Végétarien" || plat.dish_type.toLowerCase() === "Flexitarien")))
                                {
                                   platsfiltres.push(plat)
                                
                                }
                            
                            }
-                           //res.json({platsfiltres})
-                        //   data.ingredients.map( ingredient => {
-                        //      platsfiltres.map( element => {
-                        //        element.ingredients.map( sousEl => {
-                        //               if(sousEl.name !== ingredient.ingredient_name)
-                        //               {
-                        //                 platsFinal.push(element)
-                        //               }
-                        //        })
-                                
-                        //      })
-                        //   })
-                          res.json({result:true,nombreDePlats:platsfiltres.length, plats:platsfiltres})
+                        //   res.json({platsfiltres})
+
+                          data.ingredients.map( ingredient => {
+                             platsfiltres.map( element => {
+                                    let bool = false; 
+                               element.ingredients.map( sousEl => {
+                                 
+                                      if(sousEl.name.toLowerCase() === ingredient.ingredient_name.toLowerCase())
+                                      {
+                                        bool = true
+                                      }
+                               })
+                             // console.log(bool);
+                               if(bool === false){
+                                   if(platsFinal.find(newEl => newEl.dish_name === element.dish_name) === undefined){
+                                    platsFinal.push(element)
+                                   }
+                               }
+                             })
+                          })
+                         
                          }); 
             
                         
