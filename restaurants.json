@@ -11,7 +11,7 @@
         "menus": [
             {
                 "dish_name":"Falafels pois chiche fève coriandre CARREFOUR VEGGIE",
-                "dish_type":"Végétarien", 
+                "dish_type":"Vegetarien", 
                 "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"", 
                 "price":2.79, 
@@ -33,7 +33,7 @@
             }, 
             {
                 "dish_name":"Plat cuisiné boulettes au soja CARREFOUR VEGGIE",
-                "dish_type":"Végétarien", 
+                "dish_type":"Vegetarien", 
                 "dish_description":"",
                 "dish_category":"", 
                 "price":2.45, 
@@ -55,7 +55,7 @@
             {
 
                 "dish_name":"Steaks de soja tomate basilic",
-                "dish_type":"Végétarien", 
+                "dish_type":"Vegetarien", 
                 "dish_description":"couvrez les délicieux steaks au soja, agrémentés de tomates et de basilic, pour une touche gourmande et ensoleillée dans votre assiette. Une préparation préfrite et précuite riche en protéines de soja, tomate et basili",
                 "dish_category":"", 
                 "price":3.15, 
@@ -72,7 +72,7 @@
             {
 
                 "dish_name":"Dessert crème brûlée",
-                "dish_type":"Végétarien", 
+                "dish_type":"Vegetarien", 
                 "dish_description":"couvrez les délicieux steaks au soja, agrémentés de tomates et de basilic, pour une touche gourmande et ensoleillée dans votre assiette. Une préparation préfrite et précuite riche en protéines de soja, tomate et basili",
                 "dish_category":"", 
                 "price":7.72, 
@@ -148,7 +148,7 @@
         "menus": [
             {
                 "dish_name":"Salade verte",
-                "dish_type":"Végétarien", 
+                "dish_type":"Vegetarien", 
                 "dish_description":"",
                 "dish_category":"Salades", 
                 "dish_image":"https://francais.redpathsugar.com/sites/francais_redpathsugar_com/files/Caramelized%20Vinaigrette%20Main.jpg",

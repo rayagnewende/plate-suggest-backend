@@ -16,20 +16,22 @@ router.get('/:id', async function(req, res ) {
             // selectionner les préferences et faire le fitrage en fonction des préférences de l'utilisateur
             Preference.findOne({ user:id})
                         .then( data => {
-                       
+                        // console.log(data);
                            for(const plat of plats )
                            {
-                               if(plat.dish_type.toLowerCase() === data.regime.toLowerCase() || 
-                                  (data.regime.toLowerCase() === "Flexitarien" && plat.dish_type.toLowerCase() === "Végétarien") ||
+                               if(plat.dish_type.toLowerCase() === data.regime.toLowerCase()
+                                || (data.regime.toLowerCase() === "Flexitarien" && plat.dish_type.toLowerCase() === "Végétarien") ||
                                   (data.regime.toLowerCase() === "Mange tout" && 
-                                  (plat.dish_type.toLowerCase() === "Végétarien" || plat.dish_type.toLowerCase() === "Flexitarien")))
+                                  (plat.dish_type.toLowerCase() === "Végétarien" || plat.dish_type.toLowerCase() === "Flexitarien"))
+                                  )
                                {
+                        
                                   platsfiltres.push(plat)
                                
                                }
                            
                            }
-                        //   res.json({platsfiltres})
+                         //  res.json({platsfiltres})
 
                           data.ingredients.map( ingredient => {
                              platsfiltres.map( element => {
@@ -49,7 +51,7 @@ router.get('/:id', async function(req, res ) {
                                }
                              })
                           })
-                         
+                         res.json({result:true, nombreDePlats:platsFinal.length, plats:platsFinal}); 
                          }); 
             
                         
