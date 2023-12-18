@@ -14,6 +14,7 @@
                 "dish_type":"Vegetarien", 
                 "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"", 
+                "dish_image":"https://cdn.carrefour.eu/1200_01614346_M19_20230904.jpeg",
                 "price":2.79, 
                 "ingredients":[
                     {
@@ -36,6 +37,7 @@
                 "dish_type":"Vegetarien", 
                 "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"", 
+                "dish_image":"https://media.carrefour.fr/medias/7868ce767f1d3f71a817e87d945cac5d/p_1500x1500/3560071083328-photosite-20190611-171103-0.jpg",
                 "price":2.45, 
                 "ingredients":[
                     {
@@ -58,6 +60,7 @@
                 "dish_type":"Vegetarien", 
                 "dish_description":"couvrez les délicieux steaks au soja, agrémentés de tomates et de basilic, pour une touche gourmande et ensoleillée dans votre assiette. Une préparation préfrite et précuite riche en protéines de soja, tomate et basili",
                 "dish_category":"", 
+                "dish_image":"https://media.carrefour.fr/medias/9e83b65b122331e18e7a712d9295446e/p_540x540/03273220086070-a1n1-s03.jpg", 
                 "price":3.15, 
                 "ingredients":[
                     {
@@ -75,6 +78,7 @@
                 "dish_type":"Vegetarien", 
                 "dish_description":"couvrez les délicieux steaks au soja, agrémentés de tomates et de basilic, pour une touche gourmande et ensoleillée dans votre assiette. Une préparation préfrite et précuite riche en protéines de soja, tomate et basili",
                 "dish_category":"", 
+                "dish_image":"https://www.hervecuisine.com/wp-content/uploads/creme-brulee-vanille.jpg.webp",
                 "price":7.72, 
                 "ingredients":[                 
                     {
