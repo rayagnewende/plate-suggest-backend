@@ -39,9 +39,6 @@ router.post('/signup', (req, res) => {
               }); 
 
               newUser.save()
-                     .then( data => {
-                      console.log(data);
-                     })
              res.json({ result:true, token:token}); 
           }
      
