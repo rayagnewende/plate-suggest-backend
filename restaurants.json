@@ -34,7 +34,7 @@
             {
                 "dish_name":"Plat cuisiné boulettes au soja CARREFOUR VEGGIE",
                 "dish_type":"Vegetarien", 
-                "dish_description":"",
+                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"", 
                 "price":2.45, 
                 "ingredients":[
@@ -108,7 +108,7 @@
             {
                 "dish_name":"Burger de Léon",
                 "dish_type":"Mange tout", 
-                "dish_description":"",
+                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"Plat de la maison", 
                 "price":22, 
                 "ingredients":[
@@ -149,7 +149,7 @@
             {
                 "dish_name":"Salade verte",
                 "dish_type":"Vegetarien", 
-                "dish_description":"",
+                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"Salades", 
                 "dish_image":"https://francais.redpathsugar.com/sites/francais_redpathsugar_com/files/Caramelized%20Vinaigrette%20Main.jpg",
                 "price":5.5, 
@@ -169,7 +169,7 @@
             {
                 "dish_name":"Salade de poulet",
                 "dish_type":"Flexitarien", 
-                "dish_description":"",
+                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"Salades", 
                 "dish_image":"https://img.cuisineaz.com/660x660/2016/04/28/i97668-salade-de-poulet.jpg",
                 "price":14.5, 
@@ -254,7 +254,7 @@
             {
                 "dish_name":"Pasta box au boeuf sauce poivre",
                 "dish_type":"Mange tout", 
-                "dish_description":"",
+                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"Salades", 
                 "dish_image":"https://img.cuisineaz.com/660x660/2016/04/28/i97668-salade-de-poulet.jpg",
                 "price":14.5, 
