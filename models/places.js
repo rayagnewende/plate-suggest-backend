@@ -6,6 +6,8 @@ const menuSchema = mongoose.Schema({
     dish_description:String,
     dish_category:String, 
     price:Number, 
+    distane:Number,
+    note:Number,
     ingredients:[{name:String}]
 })
 const PlaceSchema = mongoose.Schema({

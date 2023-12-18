@@ -10,12 +10,15 @@
         "note":3.8, 
         "menus": [
             {
+
                 "dish_name":"Falafels pois chiche fève coriandre CARREFOUR VEGGIE",
                 "dish_type":"Vegetarien", 
                 "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"", 
                 "dish_image":"https://cdn.carrefour.eu/1200_01614346_M19_20230904.jpeg",
                 "price":2.79, 
+                "distance":97, 
+                "note":3.8, 
                 "ingredients":[
                     {
                         "name":"semoule de ble"
@@ -39,6 +42,8 @@
                 "dish_category":"", 
                 "dish_image":"https://media.carrefour.fr/medias/7868ce767f1d3f71a817e87d945cac5d/p_1500x1500/3560071083328-photosite-20190611-171103-0.jpg",
                 "price":2.45, 
+                "distance":97, 
+                "note":3.8, 
                 "ingredients":[
                     {
                         "name":"pois chiche"
@@ -62,6 +67,8 @@
                 "dish_category":"", 
                 "dish_image":"https://media.carrefour.fr/medias/9e83b65b122331e18e7a712d9295446e/p_540x540/03273220086070-a1n1-s03.jpg", 
                 "price":3.15, 
+                "distance":97, 
+                "note":3.8, 
                 "ingredients":[
                     {
                         "name":"SOJA"
@@ -80,6 +87,8 @@
                 "dish_category":"", 
                 "dish_image":"https://www.hervecuisine.com/wp-content/uploads/creme-brulee-vanille.jpg.webp",
                 "price":7.72, 
+                "distance":97, 
+                "note":3.8, 
                 "ingredients":[                 
                     {
                         "name":" LAIT"
@@ -115,6 +124,8 @@
                 "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"Plat de la maison", 
                 "price":22, 
+                "distance":400,
+                "note":4.5, 
                 "ingredients":[
                     {
                         "name":"Boeuf"
@@ -157,6 +168,8 @@
                 "dish_category":"Salades", 
                 "dish_image":"https://francais.redpathsugar.com/sites/francais_redpathsugar_com/files/Caramelized%20Vinaigrette%20Main.jpg",
                 "price":5.5, 
+                "distance":300,
+                "note":4.8, 
                 "ingredients":[
                     {
                         "name":"Feuille de chêne"
@@ -177,6 +190,8 @@
                 "dish_category":"Salades", 
                 "dish_image":"https://img.cuisineaz.com/660x660/2016/04/28/i97668-salade-de-poulet.jpg",
                 "price":14.5, 
+                "distance":300,
+                "note":4.8, 
                 "ingredients":[
                     {
                         "name":"Salade"
@@ -227,6 +242,8 @@
                 "dish_category":"", 
                 "dish_image":"https://franprix.twic.pics/product-images/3302740447020_A1C1_s52?twic=v1/output=jpeg/cover=420x-",
                 "price":3.65, 
+                "distance":30, 
+                "note": 4, 
                 "ingredients":[
                     {
                         "name":"Pâtes spaghetti"
@@ -262,6 +279,8 @@
                 "dish_category":"Salades", 
                 "dish_image":"https://img.cuisineaz.com/660x660/2016/04/28/i97668-salade-de-poulet.jpg",
                 "price":14.5, 
+                "distance":30, 
+                "note": 4, 
                 "ingredients":[
                     {
                         "name":"semoule de blé"
