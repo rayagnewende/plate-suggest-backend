@@ -11,7 +11,7 @@ const { checkIfElementExistsInArray } = require('../modules/checkElementExistsIn
 // cette route retourne la liste des restaurants et magasins à proximité 
 router.get('/', function(req, res ) {
    Place.find()
-        then( places => {
+        .then( places => {
             res.json({places})
         })
 }); 
