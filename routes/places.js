@@ -2,7 +2,8 @@ var express = require('express');
 var router = express.Router();
 const Preference = require('../models/preferences'); 
 const Place = require('../models/places'); 
-const User = require('../models/users')
+const User = require('../models/users');
+const { checkIfElementExistsInArray } = require('../modules/checkElementExistsInArray');
 /*  */
 router.get('/:token', async function(req, res ) {
     const  token = req.params.token;
@@ -23,13 +24,12 @@ router.get('/:token', async function(req, res ) {
             // selectionner les préferences et faire le fitrage en fonction des préférences de l'utilisateur
             Preference.findOne({ user:user._id})
                         .then( data => {
-                        // console.log(data);
                            for(const plat of plats )
                            {
                                if(plat.dish_type.toLowerCase() === data.regime.toLowerCase()
-                                || (data.regime.toLowerCase() === "Flexitarien" && plat.dish_type.toLowerCase() === "Vegetarien") ||
+                                || (data.regime.toLowerCase() === "flexitarien" && plat.dish_type.toLowerCase() === "vegetarien") ||
                                   (data.regime.toLowerCase() === "Mange tout" && 
-                                  (plat.dish_type.toLowerCase() === "Vegetarien" || plat.dish_type.toLowerCase() === "Flexitarien"))
+                                  (plat.dish_type.toLowerCase() === "vegetarien" || plat.dish_type.toLowerCase() === "flexitarien"))
                                   )
                                {
                         
@@ -44,18 +44,19 @@ router.get('/:token', async function(req, res ) {
                              platsfiltres.map( element => {
                                     let bool = false; 
                                element.ingredients.map( sousEl => {
-                                 
+                    
                                       if(sousEl.name.toLowerCase() === ingredient.ingredient_name.toLowerCase())
                                       {
                                         bool = true
                                       }
                                })
-                             // console.log(bool);
-                               if(bool === false){
-                                   if(platsFinal.find(newEl => newEl.dish_name === element.dish_name) === undefined){
-                                    platsFinal.push(element)
-                                   }
+                               if(bool === false ){
+                                  if(!checkIfElementExistsInArray(element, platsFinal))
+                                  {
+                                       platsFinal.push(element); 
+                                  }
                                }
+
                              })
                           })
                          res.json({result:true, nombreDePlats:platsFinal.length, plats:platsFinal}); 
