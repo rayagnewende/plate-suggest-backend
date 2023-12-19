@@ -4,7 +4,19 @@ const Preference = require('../models/preferences');
 const Place = require('../models/places'); 
 const User = require('../models/users');
 const { checkIfElementExistsInArray } = require('../modules/checkElementExistsInArray');
-/*  */
+
+
+
+
+// cette route retourne la liste des restaurants et magasins à proximité 
+router.get('/', async function(req, res ) {
+   Place.find()
+        then( places => {
+            res.json({places})
+        })
+}); 
+
+/*  cette route permet de faire la requete  */
 router.get('/:token', async function(req, res ) {
     const  token = req.params.token;
     let  plats=[]; 
@@ -13,7 +25,6 @@ router.get('/:token', async function(req, res ) {
     
     User.findOne({token:token})
         .then( user => {
-
 
 
          Place.find()
@@ -64,6 +75,8 @@ router.get('/:token', async function(req, res ) {
             
                         
         })
+
+
 
 
 
