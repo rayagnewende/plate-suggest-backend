@@ -11,7 +11,7 @@ const { checkIfElementExistsInArray } = require('../modules/checkElementExistsIn
 // cette route retourne la liste des restaurants et magasins à proximité 
 router.get('/', async  function(req, res ) {
   const places =  await Place.find(); 
-  res.json({places}); 
+  res.json({places:places})
 
 }); 
 
@@ -38,7 +38,7 @@ router.get('/:token', async function(req, res ) {
                            {
                                if(plat.dish_type.toLowerCase() === data.regime.toLowerCase()
                                 || (data.regime.toLowerCase() === "flexitarien" && plat.dish_type.toLowerCase() === "vegetarien") ||
-                                  (data.regime.toLowerCase() === "Mange tout" && 
+                                  (data.regime.toLowerCase() === "mange tout" && 
                                   (plat.dish_type.toLowerCase() === "vegetarien" || plat.dish_type.toLowerCase() === "flexitarien"))
                                   )
                                {
@@ -50,25 +50,26 @@ router.get('/:token', async function(req, res ) {
                            }
                          //  res.json({platsfiltres})
 
-                          data.ingredients.map( ingredient => {
-                             platsfiltres.map( element => {
-                                    let bool = false; 
-                               element.ingredients.map( sousEl => {
-                    
-                                      if(sousEl.name.toLowerCase() === ingredient.ingredient_name.toLowerCase())
-                                      {
-                                        bool = true
-                                      }
-                               })
-                               if(bool === false ){
-                                  if(!checkIfElementExistsInArray(element, platsFinal))
-                                  {
-                                       platsFinal.push(element); 
-                                  }
-                               }
-
+                         data.ingredients.length > 0 ? data.ingredients.map( ingredient => {
+                           platsfiltres.map( element => {
+                                  let bool = false; 
+                             element.ingredients.map( sousEl => {
+                  
+                                    if(sousEl.name.toLowerCase().includes(ingredient.ingredient_name.toLowerCase()))
+                                    {
+                                      bool = true
+                                    }
                              })
-                          })
+                             console.log(bool);
+                             if(bool === false ){
+                                if(!checkIfElementExistsInArray(element, platsFinal))
+                                {
+                                     platsFinal.push(element); 
+                                }
+                             }
+
+                           })
+                        }) : platsFinal = [...platsfiltres]
                          res.json({result:true, nombreDePlats:platsFinal.length, plats:platsFinal}); 
                          }); 
             
