@@ -4,6 +4,7 @@ const Preference = require('../models/preferences');
 const Place = require('../models/places'); 
 const User = require('../models/users');
 const { checkIfElementExistsInArray } = require('../modules/checkElementExistsInArray');
+const { shuffleArray } = require('../modules/suffleArray');
 
 
 
@@ -70,14 +71,12 @@ router.get('/:token', async function(req, res ) {
 
                            })
                         }) : platsFinal = [...platsfiltres]
+                         platsFinal = shuffleArray(platsFinal); 
                          res.json({result:true, nombreDePlats:platsFinal.length, plats:platsFinal}); 
                          }); 
             
                         
         })
-
-
-
 
 
         })
