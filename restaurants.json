@@ -12,7 +12,7 @@
             {
                 "place_name":"Carrefour City", 
                 "dish_name":"Falafels pois chiche fève coriandre CARREFOUR VEGGIE",
-                "dish_type":"Vegetarien", 
+                "dish_type":"Végétarien", 
                 "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
                 "dish_category":"", 
                 "dish_image":"https://cdn.carrefour.eu/1200_01614346_M19_20230904.jpeg",
@@ -38,8 +38,8 @@
             {
                 "place_name":"Carrefour City", 
                 "dish_name":"Plat cuisiné boulettes au soja CARREFOUR VEGGIE",
-                "dish_type":"Vegetarien", 
-                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
+                "dish_type":"Végétarien", 
+                "dish_description":"Découvrez notre recette originale de boulettes de soja tomate et basilic cuisinées à l'arrabiata ! Ce plat vous permettra d'enrichir votre carte et diversifier votre offre de plats du jour en proposant une recette végétarienne aux notes italiennes. À accompagner de pâtes, en service à table ou en vente à emporter",
                 "dish_category":"", 
                 "dish_image":"https://media.carrefour.fr/medias/7868ce767f1d3f71a817e87d945cac5d/p_1500x1500/3560071083328-photosite-20190611-171103-0.jpg",
                 "price":2.45, 
@@ -79,7 +79,7 @@
                 "place_name":"Chez Léon", 
                 "dish_name":"Burger de Léon",
                 "dish_type":"Mange tout", 
-                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
+                "dish_description":"Hamburger, cheeseburger, fishburger... ou plus simplement le burger, parti vers l'Amérique avec les migrants européens et revenu tel le saumon sur ses terres d'origine, n'est rien d'autre qu'un sandwich à la viande ou au poisson, garni de crudités et éventuellement de fromage.",
                 "dish_category":"Plat de la maison", 
                 "dish_image":"https://restaurantleon-1630c.kxcdn.com/wp-content/uploads/2023/04/BURGER_LEON_CHEDDAR_BACON_PE23-800x0-c-default.jpg",
                 "price":22, 
@@ -123,8 +123,8 @@
             {
                 "place_name":"Chez Maxence", 
                 "dish_name":"Salade verte",
-                "dish_type":"Vegetarien", 
-                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
+                "dish_type":"Végétarien", 
+                "dish_description":"La salade verte, aussi connue sous le nom de salade mixte, est un plat rafraîchissant et léger composé principalement de feuilles de laitue et d'autres légumes verts variés. Cette salade peut être agrémentée d'une gamme d'ingrédients, tels que des tomates juteuses, des concombres croquants, des radis colorés et des oignons frais, pour créer une palette de saveurs et de textures. Souvent accompagnée d'une vinaigrette légère à base d'huile d'olive, de vinaigre, de moutarde et d'herbes, la salade verte offre une option saine et délicieuse, idéale comme entrée fraîche ou en accompagnement léger pour différents plats",
                 "dish_category":"Salades", 
                 "dish_image":"https://francais.redpathsugar.com/sites/francais_redpathsugar_com/files/Caramelized%20Vinaigrette%20Main.jpg",
                 "price":5.5, 
@@ -147,7 +147,7 @@
                 "place_name":"Chez Maxence", 
                 "dish_name":"Salade de poulet",
                 "dish_type":"Flexitarien", 
-                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
+                "dish_description":"La salade au poulet est une création culinaire équilibrée et délicieuse qui marie la légèreté des légumes avec la richesse et la protéine du poulet. Au cœur de cette salade se trouve une généreuse portion de morceaux de poulet grillé ou rôti, assaisonnés avec des herbes et des épices, offrant une texture tendre et savoureuse.",
                 "dish_category":"Salades", 
                 "dish_image":"https://img.cuisineaz.com/660x660/2016/04/28/i97668-salade-de-poulet.jpg",
                 "price":14.5, 
@@ -187,7 +187,7 @@
 
     {
 
-        "place_name":"FrancPrix", 
+        "place_name":"Franprix", 
         "adresse":"48 Rue Jouffroy d'Abbans, 75017 Paris", 
         "place_image":"https://www.olivierdauvers.fr/wp-content/uploads/2022/12/IMG_0758-copie-1.jpg", 
         "place_type": "Magasin", 
@@ -197,7 +197,7 @@
         "note": 4, 
         "menus": [
             {
-                "place_name":"FrancPrix", 
+                "place_name":"Franprix", 
                 "dish_name":"Escalope de dinde milanaise spaghettis tomate",
                 "dish_type":"Mange tout", 
                 "dish_description":"Une escalope de poulet panée et bien dorée accompagnée de spaghetti et d'une sauce tomate cuisinée avec des oignons, de l'ail, et du basilic.",
@@ -235,10 +235,10 @@
                 ]
             }, 
             {
-                "place_name":"FrancPrix", 
+                "place_name":"FranPrix", 
                 "dish_name":"Pasta box au boeuf sauce poivre",
                 "dish_type":"Mange tout", 
-                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
+                "dish_description":"La pause du midi va être hot ! Quand piquant rime avec gourmand, c’est la XtremBox Radiatori bœuf sauce au poivre ! Préparés chaque jour dans les ateliers Sodebo, ces radiatori nappés d’une sauce relevée vont réveiller vos papilles à l’heure du déjeuner comme au dîner ! 400 gr de saveurs épicées à découvrir sans plus attendre au rayon frais",
                 "dish_category":"Salades", 
                 "dish_image":"https://img.cuisineaz.com/660x660/2016/04/28/i97668-salade-de-poulet.jpg",
                 "price":14.5, 
@@ -282,7 +282,7 @@
             {
                 "place_name":"Dessirier", 
                 "dish_name":"L’ASSIETTE CRUSTACÉS",
-                "dish_type":"pescetarien", 
+                "dish_type":"pescétarien", 
                 "dish_description":"3 Langoustines, 3 Crevettes roses, bol de Bulots & Saumon mariné Maison",
                 "dish_category":"crustacée", 
                 "dish_image":"https://restaurantdessirier.com/cdn/shop/products/assiette-crustace.jpg?v=1671638881",
@@ -320,8 +320,8 @@
             {
                 "place_name":"Sterne fruits de mer",
                 "dish_name":"Plateau du pecheur",
-                "dish_type":"pescetarien", 
-                "dish_description":"3 huitres, 3 bulots,amandes & crevettes roses",
+                "dish_type":"pescétarien", 
+                "dish_description":"Plateau élaboré par nos soins. Prêt à déguster.Le Plateau Pêcheur est composé de : 24 Huîtres Spéciales, 20 Moules, 20 Palourdes, 2 Tourteaux Cuits, 10 Amandes ,20 Bulots Cuits, 20 Crevettes cuites, 6 Crevettes cuites grandes",
                 "dish_category":"crustacée et fruit de mer", 
                 "dish_image":"https://lacabanedupecheur-oleron.com/wp-content/uploads/2022/11/plateau-fruits-de-mer-oleron-duo.jpg",
                 "price":42, 
@@ -358,8 +358,8 @@
             {
                 "place_name":"Chez Simon", 
                 "dish_name":"Pavé de saumon",
-                "dish_type":"pescetarien", 
-                "dish_description":"3 huitres, 3 bulots,amandes & crevettes roses",
+                "dish_type":"pescétarien", 
+                "dish_description":"Grand classique, le pavé de saumon est un plat gourmand et savoureux. On le sert volontiers aussi bien lors d’un repas du quotidien que pour un événement plus festif, comme les fêtes de fin d’année. Les pavés de saumon sont cuits à la poêle pour garder une chair moelleuse légèrement rosée à cœur. La sauce crémeuse est préparée avec du vin blanc et de l’échalote pour apporter encore plus de saveurs",
                 "dish_category":"crustacée et fruit de mer", 
                 "dish_image":"https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_600,q_auto,w_800/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/tag_photos/original/46062/pave-de-saumon-flickr-30126647608_03cdd083b7_k.jpg",
                 "price":42, 
@@ -394,7 +394,7 @@
             {
                 "place_name":"Restaurant L'Huîtrier", 
                 "dish_name":"Soupe de poisson maison",
-                "dish_type":"pescetarien", 
+                "dish_type":"pescétarien", 
                 "dish_description":"La soupe de poisson est une spécialité de la Méditerranée. Chaque recette est différente car chacun y met sa petite touche personnel. C'est ce qui lui donne tout son charme. Cette recette de soupe de poisson, croûtons et sauce rouille est tirée du livre femme d'aujourd'hui. Idéal pour votre souper, vous nous en direz des nouvelles",
                 "dish_category":"crustacée et fruit de mer", 
                 "dish_image":"https://www.cuisineactuelle.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2Fbc7073c0-493b-4ad3-9d85-f90d7e41cfad.2Ejpeg/750x562/quality/80/crop-from/center/cr/wqkgS29tcGFsaXRjaC8gUHJpc21hcGl4IC8gQ3Vpc2luZSBBY3R1ZWxsZQ%3D%3D/soupe-de-poissons-de-mediterranee.jpeg",
@@ -442,7 +442,7 @@
             {
                 "place_name":"Le Potager de Charlotte", 
                 "dish_name":"Purée de patate douce",
-                "dish_type":"vegetalien", 
+                "dish_type":"végétalien", 
                 "dish_description":"Tout comme la pomme de terre, la patate douce est un tubercule facile à cuisiner. Légèrement sucré et à la chair orangée, elle est gorgée de vitamines. Confectionnez une belle purée de patates douces pour dire bye bye à la grisaille. Rapide, simple et économique, cette recette va probablement devenir un de vos must en cuisine. Tout le monde va l’adorer à commencer par les petits qui raffolent de la fameuse tubercule. Tout le monde à table",
                 "dish_category":"", 
                 "dish_image":"https://www.cookomix.com/wp-content/uploads/2017/09/puree-carotte-patate-douce-thermomix.jpg",
@@ -477,6 +477,53 @@
             
         ]
     }, 
+
+    {
+        "place_name":"La Table Verte", 
+        "adresse":"6 Rue Saussier-Leroy, 75017 Paris", 
+        "place_type": "Restaurant", 
+        "place_image":"https://media-cdn.tripadvisor.com/media/photo-s/05/14/b1/a0/ambiance-chaleureuse.jpg",
+        "latitude":48.880017745958696, 
+        "longitude":2.2967729656168356, 
+        "distance":1100, 
+        "note":4.6, 
+        "menus": [
+            {
+                "place_name":"La Table Verte", 
+                "dish_name":"Lasagnes aux légumes",
+                "dish_type":"végétarien", 
+                "dish_description":"Mes enfants n'aiment pas les légumes, mais raffolent de ce plat. C'est un plat complet que j'ai inventé au fur et à mesure que j'avançais dans la préparation du déjeuner, avec les ingrédients que j'avais sous la main. En étant organisée, on peut le réaliser en 1 heure.",
+                "dish_category":"", 
+                "dish_image":"https://www.undejeunerdesoleil.com/wp-content/uploads/2020/09/Lasagnes_vegetariennes_recette_video.jpg", 
+                "price":15, 
+                "distance":1100, 
+                 "note":4.6, 
+                "ingredients":[
+                    {
+                        "name":"oignon"
+                    },
+                    {
+                        "name":"aubergine"
+                    },
+                    {
+                        "name":"ail"
+                    }, 
+                    {
+                        "name":"poivron"
+                    },
+                    {
+                        "name":"huile d'olive"
+                    }, 
+                    {
+                        "name":"tomate"
+                    }
+                   
+                ]
+            }
+            
+        ]
+    }, 
+
     {
         "place_name":"Le Potager de Charlotte", 
         "adresse":"21 Rue Rennequin, 75017 Paris", 
@@ -490,7 +537,7 @@
             {
                 "place_name":"Le Potager de Charlotte", 
                 "dish_name":"Salade de fruits de saison",
-                "dish_type":"vegetarien", 
+                "dish_type":"végétarien", 
                 "dish_description":"Une salade de fruits de saison se compose au gré de vos envies, des étals des maraichers et des couleurs de la météo. Fruits exotiques, fruits rouges, agrumes et compagnie... Il vous suffit de quelques minutes de patience et de quelques ingrédients aromatiques pour amener de la fraicheur et de l'équilibre dans vos desserts, vos goûters, vos brunchs et vos petits déjeuners.",
                 "dish_category":"", 
                 "dish_image":"https://menu-vegetarien.com/storage/2022/11/recette-dessert-salade-fruits-hiver-grenade.jpg",
@@ -542,11 +589,11 @@
             {
                 "place_name":"La Table Verte", 
                 "dish_name":"Couscous végétarien",
-                "dish_type":"vegetarien", 
+                "dish_type":"végétarien", 
                 "dish_description":"Oubliez les merguez, le bœuf et le poulet : même sans viande, cette recette de couscous végétarien tout en légèreté met les petits plats dans les grands. S’articulant autour d’une semoule d’épeautre, riche en fibres et minéraux, elle se pare d’une farandole de légumes colorés (courgettes, carottes, brocolis, poivrons rouges…), de pois chiches et d’épices aux doux parfums du Maghreb. Un régal pour les yeux, un délice pour les papilles, et un pur bonheur pour la balance !",
                 "dish_category":"", 
                 "dish_image":"https://images.lanouvellerepublique.fr/image/upload/5e7eaa3a805c83ca0e8b458c.jpg", 
-                "price":15, 
+                "price":17, 
                 "distance":1100, 
                  "note":4.6, 
                 "ingredients":[
@@ -581,6 +628,11 @@
         ]
     }, 
 
+
+
+
+   
+
     {
         "place_name":"Bloom Sushi", 
         "adresse":"99 Rue Jouffroy d'Abbans, 75017 Paris", 
@@ -594,7 +646,7 @@
             {
                 "place_name":"Bloom Sushi", 
                 "dish_name":"Moulin rouge",
-                "dish_type":"vegetalien", 
+                "dish_type":"végétalien", 
                 "dish_description":"Notre magnifique Lambas “Moulin Rouge” : feuille de riz, betterave, avocat, takana, baies, sauce yuzu et basilic",
                 "dish_category":"", 
                 "dish_image":"data:image/jpeg;base64,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",
@@ -637,7 +689,7 @@
 
                "place_name":"My Vegan Salad - Bar à salades méditerranéen", 
                 "dish_name":"Salade Mexicaine",
-                "dish_type":"vegetalien", 
+                "dish_type":"végétalien", 
                 "dish_description":"Un des grands classiques de la cuisine mexicaine : la salade mexicaine ! Une délicieuse salade composée, fraîche et riche en saveurs, à laquelle on ne pense que trop peu ! Et pourtant, tout le monde l'adore. Des haricots rouges, du maïs, du poivron vert et du poivron rouge, de l'oignon, de l'ail, des olives, du persil, et une délicieuse sauce à base d'huile d'olive, de vinaigre balsamique, de ketchup et de tabasco... Une belle salade qui nous emmène, le temps d'un repas, au pays des sombreros",
                 "dish_category":"", 
                 "dish_image":"https://cdn.pratico-pratiques.com/app/uploads/sites/3/2020/07/28153913/salade-de-mais-a-la-mexicaine.jpg",
@@ -665,44 +717,5 @@
             }
             
         ]
-    } , 
-
-    {
-        "place_name":"Carrefour City", 
-        "adresse":"10 Bd des Batignolles, 75017 Paris", 
-        "place_image":"https://vire.boutic-app.fr/photos/carrefou-541-crwZWsi9MnCL.jpeg", 
-        "place_type": "Magasin", 
-        "latitude":48.8888175239241, 
-        "longitude":2.3030700683295118, 
-        "distance":97, 
-        "note":3.8, 
-        "menus": [
-            {
-                "place_name":"Carrefour City", 
-                "dish_name":"Falafels pois chiche fève coriandre CARREFOUR VEGGIE",
-                "dish_type":"Vegetarien", 
-                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
-                "dish_category":"", 
-                "dish_image":"https://cdn.carrefour.eu/1200_01614346_M19_20230904.jpeg",
-                "price":2.79, 
-                "distance":97, 
-                "note":3.8, 
-                "ingredients":[
-                    {
-                        "name":"semoule de ble"
-                    }, 
-                    {
-                        "name":"huile de colza"
-                    }, 
-                    {
-                        "name":"sel"
-                    }, 
-                    {
-                        "name":"huile de tournesol"
-                    }
-                ]
-
-            }
-        ]
-    }
+    } 
 ]

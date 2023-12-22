@@ -38,9 +38,9 @@ router.get('/:token', async function(req, res ) {
                            for(const plat of plats )
                            {
                                if(plat.dish_type.toLowerCase() === data.regime.toLowerCase()
-                                || (data.regime.toLowerCase() === "flexitarien" && plat.dish_type.toLowerCase() === "vegetarien") ||
+                                || (data.regime.toLowerCase() === "flexitarien" && plat.dish_type.toLowerCase() === "végétarien") ||
                                   (data.regime.toLowerCase() === "mange tout" && 
-                                  (plat.dish_type.toLowerCase() === "vegetarien" || plat.dish_type.toLowerCase() === "flexitarien"))
+                                  (plat.dish_type.toLowerCase() === "végétarien" || plat.dish_type.toLowerCase() === "flexitarien"))
                                   )
                                {
                         
