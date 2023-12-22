@@ -59,50 +59,6 @@
                         "name":"menthe"
                     }
                 ]
-            }, 
-            {
-                "place_name":"Carrefour City", 
-                "dish_name":"Steaks de soja tomate basilic",
-                "dish_type":"Vegetarien", 
-                "dish_description":"couvrez les délicieux steaks au soja, agrémentés de tomates et de basilic, pour une touche gourmande et ensoleillée dans votre assiette. Une préparation préfrite et précuite riche en protéines de soja, tomate et basili",
-                "dish_category":"", 
-                "dish_image":"https://media.carrefour.fr/medias/9e83b65b122331e18e7a712d9295446e/p_540x540/03273220086070-a1n1-s03.jpg", 
-                "price":3.15, 
-                "distance":97, 
-                "note":3.8, 
-                "ingredients":[
-                    {
-                        "name":"SOJA"
-                    }, 
-                    {
-                        "name":"tomate de basilic"
-                    }
-                ]
-            }, 
-
-            {
-                "place_name":"Carrefour City", 
-                "dish_name":"Dessert crème brûlée",
-                "dish_type":"Vegetarien", 
-                "dish_description":"couvrez les délicieux steaks au soja, agrémentés de tomates et de basilic, pour une touche gourmande et ensoleillée dans votre assiette. Une préparation préfrite et précuite riche en protéines de soja, tomate et basili",
-                "dish_category":"", 
-                "dish_image":"https://www.hervecuisine.com/wp-content/uploads/creme-brulee-vanille.jpg.webp",
-                "price":7.72, 
-                "distance":97, 
-                "note":3.8, 
-                "ingredients":[                 
-                    {
-                        "name":" LAIT"
-                    }, 
-                    {
-                        "name":"sucre"
-                        
-                    },
-                    {
-                        "name":"oeuf"
-                    }
-
-                ]
             }
 
         ] 
@@ -358,7 +314,7 @@
         "place_type": "Restaurant", 
         "latitude":48.8869643394097, 
         "longitude":2.322669596940328, 
-        "distance":1.4, 
+        "distance":1400, 
         "note":4.2, 
         "menus": [
             {
@@ -367,9 +323,9 @@
                 "dish_type":"pescetarien", 
                 "dish_description":"3 huitres, 3 bulots,amandes & crevettes roses",
                 "dish_category":"crustacée et fruit de mer", 
-                "dish_image":"https://assets.afcdn.com/recipe/20180327/78202_w1024h1024c1cx1656cy1092cxt0cyt0cxb3312cyb2184.webp",
+                "dish_image":"https://lacabanedupecheur-oleron.com/wp-content/uploads/2022/11/plateau-fruits-de-mer-oleron-duo.jpg",
                 "price":42, 
-                "distance":1.4, 
+                "distance":1400, 
                 "note": 4.2, 
                 "ingredients":[
                     {
@@ -396,7 +352,7 @@
         "place_type": "Restaurant", 
         "latitude":48.88929023354439, 
         "longitude":2.319966015204939, 
-        "distance":1.2, 
+        "distance":1200, 
         "note":4.7, 
         "menus": [
             {
@@ -407,7 +363,7 @@
                 "dish_category":"crustacée et fruit de mer", 
                 "dish_image":"https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_600,q_auto,w_800/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/tag_photos/original/46062/pave-de-saumon-flickr-30126647608_03cdd083b7_k.jpg",
                 "price":42, 
-                "distance":1.4, 
+                "distance":1400, 
                 "note": 4.2, 
                 "ingredients":[
                     {
@@ -432,7 +388,7 @@
         "place_type": "Restaurant", 
         "latitude":48.879905042186586, 
         "longitude":2.2962873288353385, 
-        "distance":1.0, 
+        "distance":1000, 
         "note":4.5, 
         "menus": [
             {
@@ -441,9 +397,9 @@
                 "dish_type":"pescetarien", 
                 "dish_description":"La soupe de poisson est une spécialité de la Méditerranée. Chaque recette est différente car chacun y met sa petite touche personnel. C'est ce qui lui donne tout son charme. Cette recette de soupe de poisson, croûtons et sauce rouille est tirée du livre femme d'aujourd'hui. Idéal pour votre souper, vous nous en direz des nouvelles",
                 "dish_category":"crustacée et fruit de mer", 
-                "dish_image":"h/c_fill,f_auto,h_600,q_auto,w_800/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/tag_photos/original/46062/pave-de-saumon-flickr-30126647608_03cdd083b7_k.jpg",
+                "dish_image":"https://www.cuisineactuelle.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2Fbc7073c0-493b-4ad3-9d85-f90d7e41cfad.2Ejpeg/750x562/quality/80/crop-from/center/cr/wqkgS29tcGFsaXRjaC8gUHJpc21hcGl4IC8gQ3Vpc2luZSBBY3R1ZWxsZQ%3D%3D/soupe-de-poissons-de-mediterranee.jpeg",
                 "price":18, 
-                "distance":1.0, 
+                "distance":1000, 
                 "note":4.5,  
                 "ingredients":[
                     {
@@ -709,5 +665,44 @@
             }
             
         ]
-    } 
+    } , 
+
+    {
+        "place_name":"Carrefour City", 
+        "adresse":"10 Bd des Batignolles, 75017 Paris", 
+        "place_image":"https://vire.boutic-app.fr/photos/carrefou-541-crwZWsi9MnCL.jpeg", 
+        "place_type": "Magasin", 
+        "latitude":48.8888175239241, 
+        "longitude":2.3030700683295118, 
+        "distance":97, 
+        "note":3.8, 
+        "menus": [
+            {
+                "place_name":"Carrefour City", 
+                "dish_name":"Falafels pois chiche fève coriandre CARREFOUR VEGGIE",
+                "dish_type":"Vegetarien", 
+                "dish_description":"Découvrez les délicieux falafels végétariens Carrefour VEGGIE, composés de pois chiches, de fèves, de coriandre et de menthe. Une source de fibres qui apportera une touche de fraîcheur à vos repas.",
+                "dish_category":"", 
+                "dish_image":"https://cdn.carrefour.eu/1200_01614346_M19_20230904.jpeg",
+                "price":2.79, 
+                "distance":97, 
+                "note":3.8, 
+                "ingredients":[
+                    {
+                        "name":"semoule de ble"
+                    }, 
+                    {
+                        "name":"huile de colza"
+                    }, 
+                    {
+                        "name":"sel"
+                    }, 
+                    {
+                        "name":"huile de tournesol"
+                    }
+                ]
+
+            }
+        ]
+    }
 ]
